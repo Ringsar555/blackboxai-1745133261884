@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PortalSelectionActivity">
+
+    <Button
+        android:id="@+id/btnStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Portal"
+        style="?attr/materialButtonStyle"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnFaculty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Faculty Portal"
+        style="?attr/materialButtonStyle"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admin Portal"
+        style="?attr/materialButtonStyle" />
+
+</LinearLayout>
